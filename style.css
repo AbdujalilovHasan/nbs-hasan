@@ -1,0 +1,402 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-header {
+    background-image: url('img/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 710px;
+    color: white;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.div {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    gap: 30px;
+}
+
+.right {
+    display: flex;
+}
+
+.first,
+.second {
+    display: flex;
+}
+
+.header {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+main h1 {
+    padding-top: 50px;
+    font-size: 60px;
+    text-transform: capitalize;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+span {
+    color: #3CE800;
+}
+
+.number {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+main p {
+    font-size: 20px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.btn {
+    color: #fff;
+    margin-top: 40px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(272.94deg, #3CE800 0%, #00B1D8 100%);
+    width: 200px;
+    height: 58px;
+}
+
+.btn2 {
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: #3CE800;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+ul {
+    gap: 30px;
+    display: flex;
+    margin-left: 600px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #3CE800;
+    border-bottom: 1px solid;
+}
+
+select {
+    width: 400px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+label {
+    color: #808080;
+    font-size: 14px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.section-right h2 {
+    font-size: 48px;
+}
+
+.section-left {
+    background-color: #FBFBFB;
+    border: 1px solid none;
+    width: 390px;
+    height: 480px;
+    margin-top: -350px;
+    margin-left: 700px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-section {
+    margin-top: 60px;
+    align-items: center;
+}
+
+
+.span2 {
+    color: #3CE800;
+    border-bottom: 1px solid #3CE800;
+}
+
+.btn3 {
+    color: #fff;
+    margin-left: 0px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(272.94deg, #3CE800 0%, #00B1D8 100%);
+    width: 130px;
+    height: 38px;
+}
+
+.section2 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.section2 p {
+    color: #808080;
+}
+
+.section2 h4 {
+    text-transform: uppercase;
+}
+
+.span3 {
+    color: #3CE800;
+}
+
+.card1 {
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+
+.card2 {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 60px;
+    display: flex;
+}
+
+.section2-card {
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    width: 410px;
+    height: 190px;
+}
+
+.section2-icon {
+    margin-top: 25px;
+}
+
+.section3 h2 {
+    text-transform: uppercase;
+}
+
+.wrapper-cards {
+    margin-left: 170px;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+}
+
+.title-card {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section3 p {
+    color: #808080;
+}
+
+.section3 h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.section4 {
+    margin-top: 40px;
+    background-image: url('img/Rectangle 6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 260px;
+    color: #fff;
+}
+
+.section4 h3 {
+    margin-top: -200px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section4 form {
+    margin-top: 30px;
+    width: 630px;
+    height: 68px;
+    border: none;
+    border-radius: 5px;
+    color: #E5E5E5;
+}
+
+.send {
+    background: linear-gradient(272.94deg, #3CE800 0%, #00B1D8 100%);
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section5 h1 {
+    margin-top: 100px;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.image-text {
+    display: flex;
+}
+
+.section5 h3 {
+    color: red;
+}
+
+.section5 p {
+    margin-top: 30px;
+    color: #808080;
+}
+
+
+.span-card {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #3CE800;
+    font-weight: bold;
+}
+
+.union {
+    margin-top: 30px;
+}
+
+.section5 button {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: -60px;
+    margin-left: 475px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(272.94deg, #3CE800 0%, #00B1D8 100%);
+    width: 275px;
+    height: 44px;
+}
+
+footer {
+    color: #fff;
+    padding: 50px;
+    background-color: black;
+}
+
+.footer-left-text {
+    width: 330px;
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
+.footer-center {
+    color: #fff;
+    font-size: 13px;
+    gap: 5px;
+    display: flex;
+    width: 330px;
+    flex-wrap: wrap;
+}
+
+.footer-center button {
+    padding: 5px;
+    border: none;
+    background-color: #3d3d3d;
+    font-size: 13px;
+    width: auto;
+    height: 42px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.footer-top {
+    gap: 100px;
+    margin-top: -230px;
+    margin-left: 220px;
+    display: flex;
+}
+
+footer h3 {
+    color: #3CE800;
+}
+
+.a {
+    color: #3CE800;
+}
+
+.footer-p {
+    gap: 40px;
+    display: flex;
+    color: #fff;
+}
+
+.footer-p p {
+    border-bottom: 1px solid #fff
+}
+
+.footer-button {
+    gap: 300px;
+    display: flex;
+}
+
+.footer-p p:hover {
+    border-bottom: 1px solid #3CE800;
+    color: #3CE800;
+}
+
+img {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: .5;
+}
+
